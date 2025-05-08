@@ -61,7 +61,7 @@ body {
   /* Game screenshot container */
   .games-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-template-columns: 1fr;  /* This forces a single column */
     gap: 30px;
     justify-items: center;
     align-items: start;
