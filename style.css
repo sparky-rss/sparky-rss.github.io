@@ -75,6 +75,18 @@ body {
     margin: 10px 0;
     display: block;
   }
+  
+  .game-entry {
+    width: 100%;
+    max-width: 320px;
+    min-height: 400px; /* Adjust as needed to fit your content */
+    box-sizing: border-box;
+    padding: 10px;
+    text-align: left;
+    background-color: white;
+    border-radius: 6px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  }
 
   .bottom-three {
      margin-bottom: 1cm;
