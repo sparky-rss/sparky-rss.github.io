@@ -2,20 +2,8 @@
 <html lang="en">
 <head>
   <link rel="stylesheet" href="style.css">
-  <style>
-    .bottom-three {
-       margin-bottom: 1cm;
-    }
-  </style>
   <meta charset="UTF-8">
   <title>My Games</title>
-  <style>
-    body { font-family: Arial; margin: 0; padding: 0; }
-    nav { background: #333; padding: 10px; }
-    nav a { color: white; margin-right: 15px; text-decoration: none; }
-    nav a:hover { text-decoration: underline; }
-    main { padding: 20px; }
-  </style>
 </head>
 <body>
   <nav>
@@ -26,20 +14,30 @@
   </nav>
   <main>
     <h1>My Games</h1>
-
-    <p class="bottom-three">Here you can find and play the latest builds of games I'm currently working on, and find Steam links to games I've helped build.</p>
-    <img src="images/TriWord.png" alt="Screenshot of the game TriWord" class="gamepreview">
-    <h3><b>TriWord</b></h3>
-    <p>A casual word game. Match the first and second halves of all of the six-letter words together to win. Intended for mobile.</p>
-    <p class="bottom-three"><a href="WordProject.html">TriWord</a></p>
-    <img src="images/Juggling.png" alt="Screenshot of the game Juggling" class="gamepreview">
-    <h3><b>Juggling</b></h3>
-    <p>A juggling-based roguelite. Draft balls, fruit, pennies, and trombones, while trying to keep an audience's interest. One day you'll go to Clown College. Intended for PC.</p>
-    <p class="bottom-three"><a href="JugglingProject.html">Juggling</a></p>
-    <img src="images/MindOverMagic.png" alt="Banner image from the Steam page for Mind Over Magic" class="gamepreview">
-    <h3><b>Mind Over Magic</b></h3>
-    <p>A magic school simulation game that I helped design from start to finish at <a href="https://www.sparkypants.com/">Sparkypants</a>. Published by <a href="https://www.klei.com/">Klei</a>. PC.</p>
-    <p class="bottom-three"><a href="https://store.steampowered.com/app/1270580/Mind_Over_Magic/">Mind Over Magic Steam Page</a></p>
+    <p class="bottom-three">Here you can find and play the latest builds...</p>
+  
+    <div class="games-grid">
+      <div class="game-entry">
+        <img src="images/TriWord.png" alt="Screenshot of the game TriWord" class="gamepreview">
+        <h3>TriWord</h3>
+        <p>A casual word game...</p>
+        <p class="bottom-three"><a href="WordProject.html">TriWord</a></p>
+      </div>
+  
+      <div class="game-entry">
+        <img src="images/Juggling.png" alt="Screenshot of the game Juggling" class="gamepreview">
+        <h3>Juggling</h3>
+        <p>A juggling-based roguelite...</p>
+        <p class="bottom-three"><a href="JugglingProject.html">Juggling</a></p>
+      </div>
+  
+      <div class="game-entry">
+        <img src="images/MindOverMagic.png" alt="Banner image for Mind Over Magic" class="gamepreview">
+        <h3>Mind Over Magic</h3>
+        <p>A magic school sim I helped design...</p>
+        <p class="bottom-three"><a href="https://store.steampowered.com/app/1270580/Mind_Over_Magic/">Steam Page</a></p>
+      </div>
+    </div>
   </main>
 </body>
 </html>
