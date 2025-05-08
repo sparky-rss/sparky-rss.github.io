@@ -48,7 +48,7 @@ body {
   a:hover {
     color: #1abc9c;
   }
-  
+
   .headshot {
     width: 150px;
     height: 150px;
@@ -56,5 +56,16 @@ body {
     border-radius: 50%;
     margin: 20px 0;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    display: block;
+  }
+  
+  .gamepreview {
+    width: 100%;
+    max-width: 300px;        /* or whatever fits your layout */
+    height: 170px;           /* consistent height */
+    object-fit: cover;       /* crops excess but keeps content centered */
+    border-radius: 6px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px;
     display: block;
   }
