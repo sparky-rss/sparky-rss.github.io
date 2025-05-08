@@ -60,9 +60,11 @@ body {
   }
   /* Game screenshot container */
   .games-grid {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 30px;
+    justify-items: center;
+    align-items: start;
   }
 
   .gamepreview {
